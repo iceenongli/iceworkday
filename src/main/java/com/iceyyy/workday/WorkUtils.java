@@ -16,7 +16,10 @@ import java.util.Map.Entry;
 
 import com.iceyyy.icework.presence.YearMap;
 import com.iceyyy.nongli.NongLi;
-
+/**
+ * iceworkday工作日算法
+ * @author IceWater zxcyhn@126.com
+ */
 public class WorkUtils {
 
     public static Map<String, Boolean> weekendMap(String year) {
