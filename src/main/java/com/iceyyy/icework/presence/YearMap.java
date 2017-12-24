@@ -14,7 +14,7 @@ public class YearMap {
         return createMap.getYearMap();
     }
 
-    private static Year20xx createMap(int year) {  
+    private static Year20xx createMap(int year) {
         if (year == 2001) {
             return new Year2001();
         } else if (year == 2002) {
@@ -50,7 +50,7 @@ public class YearMap {
         } else if (year == 2017) {
             return new Year2017();
         } else if (year == 2018) {
-            return new Year2018(); 
+            return new Year2018();
         }
         return null;
     }
