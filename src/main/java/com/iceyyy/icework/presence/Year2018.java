@@ -8,7 +8,7 @@ public class Year2018 implements Year20xx {
     @Override
     public Map<String, Boolean> getYearMap() {
         Map<String, Boolean> map = new HashMap<String, Boolean>();
-        map.put("20180101", true);// 休
+        map.put("20180101", true);  // 休
         map.put("20180211", false); // 班
         map.put("20180215", true); // 休
         map.put("20180216", true); // 休
