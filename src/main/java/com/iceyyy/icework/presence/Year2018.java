@@ -18,14 +18,14 @@ public class Year2018 implements Year20xx {
         map.put("20180224", false); // 班
         map.put("20180405", true); // 休
         map.put("20180406", true); // 休
-        map.put("20170408", false); // 班
-        map.put("20170428", false); // 班
+        map.put("20180408", false); // 班
+        map.put("20180428", false); // 班
         map.put("20180430", true); // 休
         map.put("20180501", true); // 休
         map.put("20180618", true); // 休
         map.put("20180924", true); // 休
-        map.put("20170929", false); // 班
-        map.put("20170930", false); // 班
+        map.put("20180929", false); // 班
+        map.put("20180930", false); // 班
         map.put("20181001", true); // 休
         map.put("20181002", true); // 休
         map.put("20181003", true); // 休
