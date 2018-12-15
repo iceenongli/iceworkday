@@ -51,6 +51,8 @@ public class YearMap {
             return new Year2017();
         } else if (year == 2018) {
             return new Year2018();
+        } else if (year == 2019) {
+            return new Year2019();
         }
         return null;
     }

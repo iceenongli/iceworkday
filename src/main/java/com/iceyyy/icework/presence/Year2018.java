@@ -31,6 +31,8 @@ public class Year2018 implements Year20xx {
         map.put("20181003", true); // 休
         map.put("20181004", true); // 休
         map.put("20181005", true); // 休
+        map.put("20181229", false); // 班
+        map.put("20181231", true); // 休
         return map;
     }
 
