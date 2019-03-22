@@ -17,7 +17,11 @@ public class Year2019 implements Year20xx {
         map.put("20190207", true); // 休
         map.put("20190208", true); // 休
         map.put("20190405", true); // 休
+        map.put("20190428", false); // 班
         map.put("20190501", true); // 休
+        map.put("20190502", true); // 休
+        map.put("20190503", true); // 休
+        map.put("20190505", false); // 班
         map.put("20190607", true); // 休
         map.put("20190913", true); // 休
         map.put("20190929", false); // 班
