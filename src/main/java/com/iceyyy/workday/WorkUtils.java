@@ -51,6 +51,12 @@ public class WorkUtils {
             throw new RuntimeException("输入的日期不能为空");
         }
         ymd = convertDate(ymd);
+        if("19991230".equals(ymd)) {
+            return true;
+        }
+        if("19991231".equals(ymd)) {
+            return true;
+        }
         String yearStr = ymd.substring(0, 4);
         Map<String, Boolean> weekendMap = weekendMap(yearStr);
         Boolean isWeekend = weekendMap.get(ymd);
@@ -684,5 +690,13 @@ public class WorkUtils {
             }
         }
         return newMap;
+    }
+
+    /**
+     * 提示语
+     * @return 提示语
+     */
+    protected static String warn() {
+        return "注意：该算法对于将来的时间仅是预测，并不能完全精确。";
     }
 }

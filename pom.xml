@@ -4,7 +4,7 @@
 
     <groupId>com.icexxx</groupId>
     <artifactId>iceworkday</artifactId>
-    <version>1.3</version>
+    <version>2.0.2.0</version>
     <packaging>jar</packaging>
 
     <properties>

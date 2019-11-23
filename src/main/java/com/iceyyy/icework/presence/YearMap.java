@@ -53,6 +53,8 @@ public class YearMap {
             return new Year2018();
         } else if (year == 2019) {
             return new Year2019();
+        } else if (year == 2020) {
+            return new Year2020();
         }
         return null;
     }
